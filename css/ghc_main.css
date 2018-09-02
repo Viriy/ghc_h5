@@ -130,7 +130,7 @@ img{max-width:100%}
 .mr30{margin-right:.4rem}
 .mr70{margin-right:0.933333rem}
 .ml24{ margin-left:.32rem}
-.bold,.card_wrap h3,.release_info h4,.index_menu h2 em{font-weight:700}
+.bold,.card_wrap h3,.release_info h4,.index_menu h2 em,.filter_nav a h4,.show_data h3{font-weight:700}
 .hide{display:none}
 
 .bor{border:1px solid #eee}
@@ -203,7 +203,7 @@ img{display:block;max-width:100%}
 
 
 .h_header,.f_footer,.notice_wrap{position:fixed;left:0;width:100%;z-index:9999}
-.h_header{top:0;width:100%;height:1.2rem;line-height:1.2rem;background:#110a03;position:absolute;}
+.h_header{top:0;width:100%;height:1.2rem;line-height:1.2rem;background:#110a03}
 .f_footer{bottom:0;height:1.466667rem;background:#262522;-webkit-box-shadow:0 -.013333rem .08rem rgba(0,0,0,.14);-moz-box-shadow:0 -.013333rem .08rem rgba(0,0,0,.14);-ms-box-shadow:0 -.013333rem .08rem rgba(0,0,0,.14);box-shadow:0 -.013333rem .08rem rgba(0,0,0,.14);border-top:1px solid #ffdfa2;border-image:-webkit-linear-gradient(#ecb153,#ffdfa2) 1 1;border-image:-moz-linear-gradient(#ecb153,#ffdfa2) 1 1;
      border-image:linear-gradient(#ecb153,#ffdfa2) 1 1}
 .f_footer a{height:1.466667rem;padding-top:0.266667rem}
@@ -248,8 +248,8 @@ filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffdfa2', endC
 
 .mui-fullscreen{position:absolute;top:0;left:0;right:0;bottom:0}
 
-.news_head{padding:0.56rem 0;margin:0 0.266667rem;border-bottom:1px solid #282725}
-.news_head h2{line-height:0.746667rem;margin-bottom:0.266667rem}
+.news_head{padding:0.36rem 0 .56rem;margin:0 0.266667rem;border-bottom:1px solid #282725}
+.news_head h2{line-height:0.746667rem;margin-bottom:0.133333rem}
 .news_body{line-height:0.48rem}
 
 .mui-control-content {min-height:215px;}
@@ -270,7 +270,7 @@ filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffdfa2', endC
 .mui-segmented-control .mui-control-item{line-height:1.173333rem}
 .mui-slider-progress-bar{height:1.173333rem;position:absolute;top:0}
 .mui-segmented-control.mui-segmented-control-inverted .mui-control-item{z-index:9}
-.mui-segmented-control.mui-segmented-control-inverted~.mui-slider-progress-bar{background:url('../images/ghc_tab_bg.png') 50% 0.186667rem no-repeat;background-size:2.666667rem}
+.mui-segmented-control.mui-segmented-control-inverted~.mui-slider-progress-bar{background:url('../images/ghc_tab_bg.png') 50% 0.106667rem no-repeat;background-size:2.666667rem}
 
 .show_data{overflow:hidden;line-height:0.56rem;padding:0.533333rem 0}
 
@@ -313,10 +313,10 @@ filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#3d3024', endC
 .r_record{padding: 0.4rem 0.4rem 0.48rem;line-height: 0.613333rem}
 .r_record:before{font-size: 0.346667rem;margin-top:-0.173333rem}
 
-.release_info li{width:4.48rem;height:1.84rem;background: url(../images/ghc_bg1.png) 50% no-repeat;background-size:4.48rem;padding: 0.453333rem 0.533333rem;margin-bottom:0.24rem;overflow: hidden;}
+.release_info li{width:4.48rem;height:1.84rem;background: url(../images/ghc_bg1.png) 50% no-repeat;background-size:4.48rem;padding: 0.453333rem 0.533333rem;margin-bottom:0.24rem;overflow: hidden;line-height:0.373333rem}
 .release_info li:not(:nth-child(2n+0)){margin-right:0.24rem}
 .release_info li:before{content: '\e843';position: absolute;right:0.133333rem;bottom:0.266667rem;color: #f6c476;font-size:1.6rem;transform: rotate(-30deg);}
-/*.release_info li:nth-child(2n):before{content: '\e842'}*/
+.release_info h4{line-height:0.533333rem}
 
 table{width:100%}
 tr,td,th{padding:0.266667rem 0.133333rem;line-height: 0.48rem}
