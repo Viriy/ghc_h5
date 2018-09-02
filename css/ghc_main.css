@@ -65,9 +65,9 @@ p{margin-bottom:0}
 .f30,.f30 a,.f30 p,a.f30,.filter_nav h4{font-size:.4rem}
 .f32,.f32 a,.f32 p,.f32 h1,.f32 h6,.notice_list a h3{font-size:.426667rem}
 .f34,.f34 a,.f34 p{font-size:.453333rem}
-.f36,.f36 a,.f36 p,.f36 h2,.f36 h3{font-size:.48rem;line-height: 0.48rem}
+.f36,.f36 a,.f36 p,.f36 h2,.f36 h3{font-size:.48rem}
 .f38,.f38 a,.f38 p{font-size:.506667rem}
-.f40,.icon-checkbox,.icon-radio,.release_info h4{font-size:.533333rem !important}
+.f40,.icon-checkbox,.icon-radio,.release_info h4,.card_wrap h3{font-size:.533333rem !important}
 .f42,.news_head h2{font-size:0.56rem}
 .f46{font-size:.613333rem}
 .f50,.link_list i{font-size:0.666667rem !important;line-height:.666667rem}
@@ -103,7 +103,7 @@ img{max-width:100%}
 .pdlr30{padding-left:0.4rem;padding-right:0.4rem}
 .ml{margin-left:.133333rem}
 .ml12{margin-left:.16rem}
-.mt10,.release_info h4{margin-top:.133333rem}
+.mt10,.release_info h4,.card_wrap h3{margin-top:.133333rem}
 .mt{margin-top:.266667rem}
 .mt30{margin-top:.4rem}
 .mt40{margin-top:0.533333rem}
@@ -130,7 +130,7 @@ img{max-width:100%}
 .mr30{margin-right:.4rem}
 .mr70{margin-right:0.933333rem}
 .ml24{ margin-left:.32rem}
-.bold,.ordering_list h3{font-weight:700}
+.bold,.card_wrap h3,.release_info h4,.index_menu h2 em{font-weight:700}
 .hide{display:none}
 
 .bor{border:1px solid #eee}
@@ -149,7 +149,7 @@ p{color:inherit;font-size:inherit}
 
 .yellow,p.yellow,.btnbor,.news_head h2,.card_wrap h3{color:#fac66d}
 .maincolor,.more_list a:before,.maincolor a,.tablebg th{color:#d6b071}
-.gradient_txt,a.gradient_txt,.gradient_txt a,.filter_nav a h4,.card_wrap i,.link_list i{color:#d6b071;background:-moz-linear-gradient(top, #ffdfa2 0%, #ecb153 100%);
+.gradient_txt,p.gradient_txt,a.gradient_txt,.gradient_txt a,.filter_nav a h4,.card_wrap i,.link_list i{color:#d6b071;background:-moz-linear-gradient(top, #ffdfa2 0%, #ecb153 100%);
     background:-webkit-gradient(left top, left bottom, color-stop(0%, #ffdfa2), color-stop(100%, #ecb153));
     background:-webkit-linear-gradient(top, #ffdfa2 0%, #ecb153 100%);
     background:-o-linear-gradient(top, #ffdfa2 0%, #ecb153 100%);
@@ -204,7 +204,7 @@ img{display:block;max-width:100%}
 
 .h_header,.f_footer,.notice_wrap{position:fixed;left:0;width:100%;z-index:9999}
 .h_header{top:0;width:100%;height:1.2rem;line-height:1.2rem;background:#110a03;position:absolute;}
-.f_footer{bottom:0;height:1.466667rem;background:#262522;box-shadow:0 -.013333rem .08rem rgba(0,0,0,.14);border-top:1px solid #ffdfa2;border-image:-webkit-linear-gradient(#ecb153,#ffdfa2) 1 1;border-image:-moz-linear-gradient(#ecb153,#ffdfa2) 1 1;
+.f_footer{bottom:0;height:1.466667rem;background:#262522;-webkit-box-shadow:0 -.013333rem .08rem rgba(0,0,0,.14);-moz-box-shadow:0 -.013333rem .08rem rgba(0,0,0,.14);-ms-box-shadow:0 -.013333rem .08rem rgba(0,0,0,.14);box-shadow:0 -.013333rem .08rem rgba(0,0,0,.14);border-top:1px solid #ffdfa2;border-image:-webkit-linear-gradient(#ecb153,#ffdfa2) 1 1;border-image:-moz-linear-gradient(#ecb153,#ffdfa2) 1 1;
      border-image:linear-gradient(#ecb153,#ffdfa2) 1 1}
 .f_footer a{height:1.466667rem;padding-top:0.266667rem}
 .f_footer i{line-height:0.48rem}
@@ -302,7 +302,7 @@ background:-webkit-linear-gradient(top, #3d3024 0%, #14100c 100%);
 background:-o-linear-gradient(top, #3d3024 0%, #14100c 100%);
 background:-ms-linear-gradient(top, #3d3024 0%, #14100c 100%);
 background:linear-gradient(to bottom, #3d3024 0%, #14100c 100%);
-filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#3d3024', endColorstr='#14100c', GradientType=0 );box-shadow:0 0.066667rem 0.04rem #bead8a inset, 0 0.053333rem 0.053333rem #110c01}
+filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#3d3024', endColorstr='#14100c', GradientType=0 );box-shadow:0 0.066667rem 0 #bead8a inset, 0 0.133333rem 0.133333rem #110c01}
 .card_wrap a{padding:0.4rem 0}
 .card_wrap i{font-size: 0.933333rem;line-height: 0.933333rem}
 
@@ -322,6 +322,8 @@ table{width:100%}
 tr,td,th{padding:0.266667rem 0.133333rem;line-height: 0.48rem}
 .tablebg th,.tablebg td{border: none}
 .tablebg tbody tr:nth-child(odd){background:#201a13}
+
+.f36.tit_line{line-height: 0.533333rem}
 
 @media (min-width:540px){
 	.h_header,.f_footer,.mui-content,.notice_wrap{max-width:540px}
